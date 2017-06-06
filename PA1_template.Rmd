@@ -1,25 +1,24 @@
----
-title: "Reproducible Research: Peer Assessment 1"
-output: 
-  html_document:
-    keep_md: true
----
+My Frist R Markdown File
+====================================================================
 
+This is my first R markdown file.  
+This is my first R markdown file.  
+Here we are going to load some data.  
 
-## Loading and preprocessing the data
+```{r}
+library(datasets)
+data(airquality)
+summary(airquality)
+```
 
+Lets make a pairs of plot data
 
+```{r}
 
-## What is mean total number of steps taken per day?
-
-
-
-## What is the average daily activity pattern?
-
-
-
-## Imputing missing values
+```
 
 
 
-## Are there differences in activity patterns between weekdays and weekends?
+
+
+
